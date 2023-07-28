@@ -20,10 +20,13 @@ nav {
     background-color: #000;
     color: #fff;
     display: flex;
+    z-index: 5;
     justify-content: space-between;
     padding-inline: 30px;
     width: 100%;
     height: 80px;
+    position: fixed;
+    top: 0;
     align-items: center;
     /* font-style: normal; */
 }
@@ -133,7 +136,7 @@ h2 {
     color: #fff;
 }
 
-.elem{
+.elem {
     width: 100%;
     border-top: 1px solid #888;
     display: flex;
@@ -143,13 +146,14 @@ h2 {
     padding-right: 0;
 }
 
-.elem h1{
+.elem h1 {
     text-transform: uppercase;
     font-size: 7vw;
     opacity: .7;
     font-weight: 500;
 }
-.elemlast{
-    
+
+.elemlast {
+
     border-bottom: 1px solid #888;
 }
